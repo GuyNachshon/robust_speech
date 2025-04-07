@@ -27,11 +27,11 @@ setup(
     packages=setuptools.find_packages(),
     package_data={"robust_speech": ["version.txt", "log-config.yaml"]},
     install_requires=[
-        "torch>=1.8.0,<=1.11",
+        "torch>=2.0.0",
         "transformers>=4.20.0",
-        "speechbrain @ git+https://github.com/RaphaelOlivier/speechbrain.git",
-        "audlib @ git+https://github.com/RaphaelOlivier/pyaudlib.git",
+        "speechbrain @ git+https://github.com/guynachshon/speechbrain.git",
+        "audlib @ git+https://github.com/guynachshon/pyaudlib.git",
     ],
     python_requires=">=3.8",
-    url="https://github.com/RaphaelOlivier/robust_speech",
+    url="https://github.com/guynachshon/robust_speech",
 )

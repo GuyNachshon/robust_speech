@@ -1,4 +1,4 @@
-torch>=1.8.0,<=1.11
+torch>=2.0.0
 transformers>=4.20.0
-git+https://github.com/RaphaelOlivier/pyaudlib.git
-git+https://github.com/RaphaelOlivier/speechbrain.git
+git+https://github.com/guynachshon/pyaudlib.git
+git+https://github.com/guynachshon/speechbrain.git
